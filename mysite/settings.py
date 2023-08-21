@@ -88,6 +88,8 @@ DATABASES = {
         'NAME': 'blog',
         'USER': 'blog',
         'PASSWORD': os.getenv('PASSWORD'),
+        'HOST': '127.0.0.1',
+        'PORT': os.getenv('PORT'),
     }
 }
 
